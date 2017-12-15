@@ -12,7 +12,7 @@ function MaiorEMenor() {
 
             nums.forEach(function(num) {
                 if (num < menor) menor = num;
-                else if (num > maior) maior = num;
+                if (num > maior) maior = num;
             });
         },
 
